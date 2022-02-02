@@ -19,34 +19,34 @@
 <p>The nice thing about this map is that it mimics somewhat of the globe shape, minimizing the extreme distortions found at the edges of similar maps. It can do this because of the shape, which, being rather irregular, is the main drawback of this map. </p>
 <img src="./worldaitoff-map.png"width='750px'>
 
-<h3>WGS84/Pseudo-Mercador</h3>
+<h3>WGS84/Pseudo-Mercador Projection</h3>
 <p>This map is also a cylindrical map and is very similar to the first map shown. It varies in one major aspect: as the map gets closer to the poles, it stays vertically proportionate instead of getting compressed. This means that shape is conserved, but area is not. As a result, countries at the top and bottom of the map get very stretched out while their shapes remain proportional to true form. 
 </p>
 <img src="./wgs84pseudomercador-map.png"width='750px'>
 
-<h3>Sphere Winkel I</h3>
+<h3>Sphere Winkel I Projection</h3>
 <p>This map is very similar to the Aitoff map above, but it varies in a few aspects. Namely, this map places a bit more focus on preserving shape rather than preserving area. Otherwise, it follows the patterns of the Aitoff map in mimicking a globe shape at the cost of having a convenient rectangular map. 
 </p>
 <img src="./spherewinkelI-map.png"width='750px'>
 
-<h3>World Cylindrical Equal Area </h3>
+<h3>World Cylindrical Equal Area Projection</h3>
 <p>This map conserves area over everything else. In this projection, Greenland covers the same area as it would on the relevant globe . However, this comes at the cost of a distortion of shape. The areas near the poles on this map are very compressed. Greenland on this map looks nothing like its true shape. 
 </p>
 <img src="./world_cylindrical_equal_area-map.png"width='750px'>
 
-<h3>World Equidistant Conic</h3>
+<h3>World Equidistant Conic Projection</h3>
 <p>This is a conic map and prioritizes preserving distance from the center of the map, in this case the North Pole. This preservation comes at the cost of shape and area distortion at areas far away from the center of the map. This distortion is somewhat negated by the fact that the map is conic and the edge of the map doesn’t stretch around the full circle. However, the conic quality of the map gives it an inconvenient shape by leaving a slice of the pie cut out.</p>
 <img src="./world_equidistant_conic-map.png"width='750px'>
 
-<h3>North Pole Equidistant Azimuthal</h3>
+<h3>North Pole Equidistant Azimuthal Projection</h3>
 <p>This map is very similar to the World Equidistant Conic map above, the main difference is that it is azimuthal instead of conic. This means that the map is a perfect circle, but the area and shape values near the edges of the map are even more distorted. This type of map preserves distance from the center above all else. It’s perfect for things that concern exact distance from a specific point. This type of map should have been used for the journalism fiasco that considered North Korean missiles. </p>
 <img src="./N_pole_equidistant_conic-map.png"width='750px'>
 
-<h3>IGS 14</h3>
+<h3>IGS 14 Projection</h3>
 <p>This map is very similar to the other cylindrical maps shown above. This one in particular preserves distance from the equator over other details, such as area. </p>
 <img src="./IGS14-map.png"width='750px'>
 
-<h3>4 Vesta 2015</h3>
+<h3>4 Vesta 2015 Projection</h3>
 <p>Unfortunately this map is nearly identical to the other one I found. I was hoping to find some projections with more variation but I am low on time and QGIS and I aren’t doing well together at the moment. The main difference I can see is that this map is marginally more concerned with preserving area than the one above.</p>
 <img src="./4_vesta_2015-map.png"width='750px'>
 
